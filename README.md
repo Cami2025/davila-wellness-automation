@@ -39,7 +39,7 @@ Este bot funciona incluso con:
 
 ---
 
-## Arquitectura del Sistema
+## 🧩 Arquitectura del Sistema
 
 ```mermaid
 flowchart LR
@@ -48,6 +48,7 @@ flowchart LR
     C --> D[ViveBienestar Web]
     D --> E[Matriculación y Asistencia]
     B --> F[Logs y Resultados]
+
 
 Tecnologías Utilizadas
 
