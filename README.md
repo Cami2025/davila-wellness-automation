@@ -47,6 +47,9 @@ flowchart LR
     C --> D[ViveBienestar Web]
     D --> E[Matriculación y Asistencia]
     B --> F[Logs y Resultados]
+```
+
+
 
 
 
