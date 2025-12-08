@@ -61,16 +61,18 @@ flowchart LR
 </details>
 
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
+```
 davila-wellness-automation/
 │
-├── Automatizacion_Davila.py        # Script principal
-├── .gitignore                      # Exclusión de secretos
-├── .env                            # Variables de entorno (no se sube)
-├── credentials.json                # Credenciales Google (no se sube)
-├── reports/                        # Resultados opcionales
+├── Automatizacion_Davila.py     # Script principal
+├── .gitignore                   # Exclusión de secretos
+├── .env                         # Variables de entorno (no se sube)
+├── credentials.json             # Credenciales Google (no se sube)
+├── reports/                     # Resultados opcionales
 └── README.md
+```
 
 ## Cómo Ejecutar el Proyecto
 
