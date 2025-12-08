@@ -48,7 +48,7 @@ flowchart LR
     C --> D[ViveBienestar Web]
     D --> E[Enrollment & Attendance]
     B --> F[Logs & Output]
-
+```
 ## Technologies Used
 
 Python 3.10+
