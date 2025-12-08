@@ -110,23 +110,28 @@ Luego envía el formulario estrictamente y reintenta si el sitio falla.
 
 ---
 
-### Robustez del Bot
-- Maneja overlays automáticamente.  
-- Busca botones de múltiples formas para adaptarse a cambios.  
-- Permite paginación dinámica.  
-- Reconoce RUT escritos de distintas maneras.  
-- Reintenta formularios si fallan.  
+## Robustez del Bot
+
+- Maneja overlays automáticamente.
+- Busca botones de múltiples formas para adaptarse a cambios.
+- Permite paginación dinámica.
+- Reconoce RUT escritos de distintas maneras.
+- Reintenta formularios si fallan.
 - Controla tiempos de carga y estados intermedios.
 
-Autora
-Camila Álvarez
-Automatización — People Analytics — Wellness Tech
+---
+
+## Autora
+
+**Camila Álvarez**  
+Automatización — People Analytics — Wellness Tech  
 Clínica Dávila / ViveBienestar
 
-Contacto
-LinkedIn: (agregar link si quieres)
-Email profesional: (opcional)
+---
 
+## Contacto
+- LinkedIn: *(agregar link si quieres)*  
+- Email profesional: *(opcional)*
 
 ---
 
