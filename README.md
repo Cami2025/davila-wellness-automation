@@ -58,3 +58,61 @@ dotenv (secure credential handling)
 Regular Expressions (flexible RUT validation)
 Advanced error tolerance
 Dynamic load and wait-time management
+
+## Project Structure
+davila-wellness-automation/
+│
+├── Automatizacion_Davila.py     # Main automation script
+├── .gitignore                   # Secret exclusion rules
+├── .env                         # Environment variables (not uploaded)
+├── credentials.json             # Google credentials (not uploaded)
+├── reports/                     # Optional results
+└── README.md
+
+# How to Run the Project
+🟢 Plan A — Quick Popup
+
+Uses only the RUT field.
+If the participant appears in the table → instant success.
+
+🟣 Plan B — Full Modal Form
+
+If the popup fails, the bot opens the full form and fills:
+Name
+RUT
+Gender
+
+Then it submits the form carefully and retries if the site fails.
+
+📝 Attendance Logic
+
+Attendance is marked only for participants of the chosen date.
+Attendance submission is done at the end of each section.
+
+# Example of Real Logs
+
+BUILDING C – URGENCIA SECTION — 7 participants
+✔️ Already enrolled; attendance marked → Juan Soto
+❌ Not found in table. Attempting enrollment…
+🟢 Plan A successful → María López
+➕ Enrolled and attendance marked
+💾 Submitting attendance…
+✔️ Attendance successfully recorded.
+
+# Bot Robustness
+Automatically handles overlays.
+Finds buttons in multiple ways to adapt to UI changes.
+Supports dynamic pagination.
+Recognizes different RUT writing formats.
+Retries forms when failures occur.
+Manages load times and intermediate states.
+
+# Author
+Camila Álvarez
+Automation — People Analytics — Wellness Tech
+Clínica Dávila / ViveBienestar
+
+# Contact
+
+LinkedIn: (add your link if you want)
+Professional email: (optional)
