@@ -37,8 +37,7 @@ Este bot funciona incluso con:
 - lentitud del sitio  
 - RUT escritos de forma inconsistente
 
----
-
+```markdown
 ## 🧩 Arquitectura del Sistema
 
 ```mermaid
