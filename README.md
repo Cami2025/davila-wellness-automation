@@ -61,7 +61,7 @@ flowchart LR
 </details>
 
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 davila-wellness-automation/
@@ -76,55 +76,47 @@ davila-wellness-automation/
 
 ## Cómo Ejecutar el Proyecto
 
-1️⃣ Instalar dependencias
-pip install playwright gspread python-dotenv google-auth
-playwright install
+#### 🟢 Plan A — Popup rápido  
+Intenta matricular solo ingresando el RUT.  
+Si aparece en tabla → éxito inmediato.
 
-2️⃣ Crear archivo .env
-URL=https://vibi.vivebienestar.cl/
-EMAIL=tu_correo
-PASSWORD=tu_password
-SHEET_ID=XXXXXXXXXXXX
-SHEET_TAB=Asistencia
-FECHA_OBJ=08/12/2025
-PROGRAMA=Gimnasia Laboral
+---
 
-3️⃣ Ejecutar
-python Automatizacion_Davila.py
+#### 🟣 Plan B — Modal completo  
+Cuando el popup no funciona, el bot abre el formulario completo y llena:  
+- Nombre  
+- RUT  
+- Género  
 
-🔍 Lógica de Matriculación
-🟢 Plan A — Popup rápido
+Luego envía el formulario estrictamente y reintenta si el sitio falla.
 
-Intenta matricular solo ingresando RUT.
+---
 
-Si aparece en tabla → éxito.
+### 📝 Lógica de Asistencia
+- Se marca **solo a los participantes del día**.  
+- Se registran las asistencias al final de cada sección.
 
-Plan B — Modal completo
+---
 
-Llena formulario completo: nombre, RUT, género.
-Envia formulario estrictamente.
-Reintenta si el sitio falla.
+### Ejemplo de Log Real  
+**EDIFICIO C – SECCIÓN URGENCIA — 7 personas**
 
-Asistencia
-Marca solo a los participantes del día.
-Registra asistencias al final de cada sección.
+- ✔️ *Ya estaba matriculado; asistencia marcada* → Juan Soto  
+- ❌ *No estaba en tabla. Intentando matricular…*  
+  - 🟢 *Plan A exitoso* → María López  
+  - ➕ *Matriculado y asistencia marcada*  
+- 💾 *Registrando asistencias…*  
+- ✔️ Asistencias registradas.
 
-Ejemplo de Log Real
-EDIFICIO C / SECCIÓN URGENCIA — 7 personas
-✔ Ya estaba matriculado; asistencia marcada → Juan Soto
-❌ No estaba en tabla. Intentando matricular…
-   🟢 Plan A exitoso → María López
-   ➕ Matriculado y asistencia marcada
-💾 Registrando asistencias…
-✔ Asistencias registradas.
+---
 
-Robustez del Bot
-Maneja overlays automáticamente.
-Busca botones de múltiples formas.
-Permite paginación dinámica.
-Reconoce RUT escritos de varias maneras.
-Reintenta formularios si fallan.
-Controla tiempos de carga.
+### Robustez del Bot
+- Maneja overlays automáticamente.  
+- Busca botones de múltiples formas para adaptarse a cambios.  
+- Permite paginación dinámica.  
+- Reconoce RUT escritos de distintas maneras.  
+- Reintenta formularios si fallan.  
+- Controla tiempos de carga y estados intermedios.
 
 Autora
 Camila Álvarez
