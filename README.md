@@ -121,5 +121,6 @@ Clínica Dávila / ViveBienestar
 # Contact
 
 LinkedIn: www.linkedin.com/in/camilaalvareztafs
+
 Professional email: camiartificial2025@gmail.com
 
