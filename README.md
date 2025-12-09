@@ -91,7 +91,7 @@ Gender
 
 Then it submits the form carefully and retries if the site fails.
 
-📝 Attendance Logic
+Attendance Logic
 
 Attendance is marked only for participants of the chosen date.
 Attendance submission is done at the end of each section.
