@@ -73,6 +73,9 @@ davila-wellness-automation/
 ### View of the Script in VS Code
 ![Script View](./images/Script.png)
 
+### Example Environment Variables (Fictitious)
+![Env Example](./images/env.png)
+
 # How to Run the Project
 🟢 Plan A — Quick Popup
 
