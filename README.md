@@ -60,7 +60,7 @@ Advanced error tolerance
 Dynamic load and wait-time management
 
 ## Project Structure
-```mermaid
+```
 davila-wellness-automation/
 │
 ├── Automatizacion_Davila.py     # Main automation script
@@ -92,7 +92,7 @@ Attendance is marked only for participants of the chosen date.
 Attendance submission is done at the end of each section.
 
 # Example of Real Logs
-
+```
 BUILDING C – URGENCIA SECTION — 7 participants
 ✔️ Already enrolled; attendance marked → Juan Soto
 ❌ Not found in table. Attempting enrollment…
@@ -100,7 +100,7 @@ BUILDING C – URGENCIA SECTION — 7 participants
 ➕ Enrolled and attendance marked
 💾 Submitting attendance…
 ✔️ Attendance successfully recorded.
-
+```
 # Bot Robustness
 Automatically handles overlays.
 Finds buttons in multiple ways to adapt to UI changes.
