@@ -51,13 +51,13 @@ flowchart LR
 ```
 ## Technologies Used
 
-Python 3.10+
-Playwright (web automation)
-gspread + Google API (Sheets)
-dotenv (secure credential handling)
-Regular Expressions (flexible RUT validation)
-Advanced error tolerance
-Dynamic load and wait-time management
+- Python 3.10+
+- Playwright (web automation)
+- gspread + Google API (Sheets)
+- dotenv (secure credential handling)
+- Regular Expressions (flexible RUT validation)
+- Advanced error tolerance
+- Dynamic load and wait-time management
 
 ## Project Structure
 ```
@@ -116,14 +116,6 @@ Clínica Dávila / ViveBienestar
 
 # Contact
 
-LinkedIn: (add your link if you want)
-Professional email: (optional)
-
-## Project Structure
-- **Automatizacion_Davila.py** — Main automation script  
-- **.gitignore** — Secret exclusion rules  
-- **.env** — Environment variables (not uploaded)  
-- **credentials.json** — Google credentials (not uploaded)  
-- **reports/** — Optional results  
-- **README.md**
+LinkedIn: www.linkedin.com/in/camilaalvareztafs
+Professional email: camiartificial2025@gmail.com
 
