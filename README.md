@@ -1,7 +1,10 @@
 ![Dashboard Banner](./images/banner.png)
-                                            # Dávila Wellness Automation  
-Full automation to enroll and register attendance for employees in Clínica Dávila’s wellness programs.  
-Built with Python + Playwright + Google Sheets.
+<h1 align="center">Dávila Wellness Automation</h1>
+<h3 align="center">
+Full automation to enroll and register attendance for employees in Clínica Dávila’s wellness programs.
+</h3>
+<p align="center"><i>Built with Python → Playwright → Google Sheets</i></p>
+
 
 ---
 
