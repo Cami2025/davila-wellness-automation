@@ -118,3 +118,12 @@ Clínica Dávila / ViveBienestar
 
 LinkedIn: (add your link if you want)
 Professional email: (optional)
+
+## Project Structure
+- **Automatizacion_Davila.py** — Main automation script  
+- **.gitignore** — Secret exclusion rules  
+- **.env** — Environment variables (not uploaded)  
+- **credentials.json** — Google credentials (not uploaded)  
+- **reports/** — Optional results  
+- **README.md**
+
